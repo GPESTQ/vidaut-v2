@@ -1,0 +1,80 @@
+####################################
+# UNITY (ESSENCIAL)
+####################################
+
+# Pastas geradas automaticamente (NUNCA versionar)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+####################################
+# UNITY - IDEs
+####################################
+
+.vs/
+.idea/
+.vscode/
+
+# Arquivos de solução (regerados)
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+####################################
+# UNITY - Builds gerados
+####################################
+
+*.apk
+*.aab
+*.exe
+*.app
+*.unitypackage
+
+####################################
+# FIREBASE
+####################################
+
+# Cache local e debug
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Emuladores
+/emulator-ui/
+/firebase-*.zip
+
+####################################
+# FIREBASE FUNCTIONS (Node.js)
+####################################
+
+# Dependências (regeradas pelo npm)
+functions/node_modules/
+
+# Variáveis de ambiente locais
+functions/.env
+
+####################################
+# LOGS
+####################################
+
+*.log
+crash.dmp
+sysinfo.txt
+
+####################################
+# SISTEMA OPERACIONAL
+####################################
+
+.DS_Store
+Thumbs.db
+desktop.ini
